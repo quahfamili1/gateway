@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+ehthumbs.db
+
+# Python-specific logs
+*.log
+
+# Environment variables file
+.env
+
+# Pytest cache
+.pytest_cache/
+
+# FastAPI related cache
+*.sqlite3
+instance/
+
+# Logs
+logs/
+*.log
+
+# IDE settings
+.vscode/
+.idea/
+
+# Docker
+*.env.*.backup
+docker-compose.override.yml
+
